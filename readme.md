@@ -2,6 +2,10 @@
 
 Un petit jeu Snake en Python (Pygame), structuré pour apprendre : grille 20x20, collisions fiables, nourriture alignée, barre latérale (score / meilleur score) et redémarrage après game-over.
 
+V1:
+https://github.com/user-attachments/assets/d351cace-28fd-42ec-aaaf-10af3dfbd254
+
+
 ## Prérequis
 
 - Python 3.10+
