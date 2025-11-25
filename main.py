@@ -4,7 +4,6 @@ from snake import Snake
 snake = Snake(400, 300, 20)
 snake.body = [(400, 300), (380, 300), (360, 300)]
 
-pygame.init()
 screen = pygame.display.set_mode((800,600))
 pygame.display.set_caption("Snake Game by Dusséaux Thomas")
 running = True
