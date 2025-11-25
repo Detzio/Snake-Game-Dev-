@@ -2,7 +2,7 @@ import pygame
 
 class Snake:
     def __init__(self, x, y, body_segment_size):
-        self.body = [(x, y)]
+        self.body = [(x, y), (x - body_segment_size, y), (x - 2 * body_segment_size, y  )]
         self.segment_size = body_segment_size
         self.direction = (1,0)
     
