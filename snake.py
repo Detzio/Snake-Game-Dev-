@@ -44,4 +44,12 @@ class Snake:
     def get_head_rect(self):
         x, y = self.body[0]
         return pygame.Rect(x, y, self.segment_size, self.segment_size)
+
+    def will_bite_itself(self, direction):
+        if not self.body or len(self.body) < 2:
+            return False
+        head_x, head_y = self.body[0]
+        direction_x, direction_y = direction
+        target = (head_x + direction_x, head_y + direction_y)
+        return target == self.body[1]
     
